@@ -1,0 +1,12 @@
+{
+  "date": "2026-10-07",
+  "python_syntax_files_passed": 29,
+  "unchanged_source_hashes_verified": 21,
+  "models_and_training_code_modified": false,
+  "aggregate_only_data_scan": "passed",
+  "supplementary_plots": "Raw/SNV/L2 and all numerical inputs verified",
+  "execution_checks_this_packaging_run": "not rerun; PyTorch unavailable in packaging environment",
+  "earlier_execution_check_record": "verification.json",
+  "patient_training_this_run": false,
+  "github_uploaded_by_assistant": false
+}

@@ -1,0 +1,5 @@
+cff-version: 1.2.0
+message: "Please cite the associated RCCR-MoE study. Author list and publication identifier must be completed before release."
+title: "RCCR-MoE: Role-based Consensus-Conflict Routing Mixture-of-Experts"
+type: software
+version: "0.1.0-review"

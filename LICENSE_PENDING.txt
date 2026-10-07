@@ -1,0 +1,4 @@
+No software licence has yet been selected by the copyright holder.
+This package does not grant an open-source or commercial-use licence.
+Choose and apply the intended licence before publication.
+Third-party software retains its own upstream licence.

@@ -1,0 +1,28 @@
+GitHub 网页上传说明
+
+1. 解压 RCCR-MoE_GitHub_upload.zip，进入 RCCR-MoE 文件夹。
+2. 打开 https://github.com/new ，仓库名填 RCCR-MoE。
+   Description 可填：Role-based consensus-conflict routing for rheumatoid arthritis classification using SERS, transcriptomics and metabolomics.
+   需要让读者访问时选择 Public；暂不公开时选择 Private。
+   不勾选 Add a README，不自动生成 .gitignore。本包已包含这两个文件。
+   许可证尚未由作者确定时，License 保持 None。
+3. 点击 Create repository。
+4. 空仓库选择 uploading an existing file；已有仓库选择 Add file，再选 Upload files。
+5. 在电脑上进入解压后的 RCCR-MoE 文件夹，将里面的全部文件及子文件夹拖入上传区。
+   上传的是文件夹里面的内容，不是 ZIP，也不是整个外层 RCCR-MoE 文件夹。
+   完成后仓库首页应直接出现 README.md、src、scripts、configs、reported_results 等。
+6. 等待文件上传完成。Commit message 填 Initial research code release。
+   新建空仓库可直接提交到 main。按钮可能显示 Commit changes 或 Propose changes。
+   若界面要求通过新分支提交，则按页面提示创建并合并 pull request。
+7. 上传后打开 README.md，确认目录结构和说明都显示正常。
+8. 复制浏览器中的实际仓库网址，填入论文 Code availability。
+
+本包包含模型与训练代码、比较方法入口、分析脚本、聚合结果、依赖及运行说明。
+不含患者数据、个体预测、模型检查点、密钥和整篇论文。
+本次重新打包未改模型公式、训练设置或已报告实验结果。
+主入口为 scripts/run_primary.py。没有患者数据时可按 README 运行合成数据演示。
+软件许可证和论文作者信息需由作者确定，包中保留了相应状态说明和模板。
+
+GitHub 官方操作说明（2026-10-07核对）
+https://docs.github.com/en/repositories/creating-and-managing-repositories/creating-a-new-repository
+https://docs.github.com/en/repositories/working-with-files/managing-files/adding-a-file-to-a-repository

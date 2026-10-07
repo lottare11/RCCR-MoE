@@ -1,0 +1,12 @@
+{
+  "date": "2026-10-07",
+  "python_syntax": "passed",
+  "heldout_isolation": "passed: changing held-out features and labels leaves training selections unchanged",
+  "margin_decomposition": "passed: exact expert/global/refinement reconstruction within numerical tolerance",
+  "masked_expert_gate": "passed",
+  "synthetic_end_to_end": "passed: CPU, 40 artificial subjects, 2 folds, 2 epochs, smaller model",
+  "patient_model_retraining": "not performed",
+  "baseline_retraining": "not performed",
+  "public_content_scan": "passed: no participant matrices, per-subject predictions, checkpoints or identifier columns in aggregate CSVs",
+  "github_uploaded": false
+}
